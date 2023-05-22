@@ -1,0 +1,36 @@
+architecture:
+  per: True
+  double: True
+  duelling: True
+  conv: "gatv2"
+  edge_mode: "lstm2"
+  graph_dims: 64
+  graph_heads: 5
+  vehicle_selection: "flood3"
+  encode_route: False
+  encode_crossing: False
+  allow_overspeed: False
+
+train:
+  eps_end: .02
+  eps_last_epoch: 2000
+  gamma: 0.9
+  learning_rate: 2e-5
+  terminal_reward: 1
+  batch_size: 512
+  max_epochs: 2000
+  eval_episodes: 2000
+  workers: 4
+
+log:
+  dir: tmp/
+  interval: 100
+  render_interval: 0
+  project: "HGRL"
+  verbose: false
+
+env:
+  train: "All"
+  eval: true
+  accel: 3.0
+  randomize_speeds: true
