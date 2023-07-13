@@ -2,7 +2,7 @@
 
 This is our official implementation of the paper "Deep Reinforcement Learning for Autonomous Driving Using High-Level Heterogeneous Graph Representations"
 presented at ICRA 2023. You may find the draft version [here](http://www.tnt.uni-hannover.de/papers/data/1638/ICRA23_0751.pdf).
-The final version will be linked once published by IEEE.
+The final version has been published by IEEE [here](https://ieeexplore.ieee.org/document/10160762).
 
 ![Teaser movie](Doc/GithubTeaser.gif)
 
