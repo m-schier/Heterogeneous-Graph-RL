@@ -56,8 +56,9 @@ Please cite this work as:
 @inproceedings { SchRei2023a,
   author = {Maximilian Schier and Christoph Reinders and Bodo Rosenhahn},
   title = {Deep Reinforcement Learning for Autonomous Driving Using High-Level Heterogeneous Graph Representations},
-  booktitle = {International Conference on Robotics and Automation (ICRA)},
+  booktitle = {2023 IEEE International Conference on Robotics and Automation (ICRA)},
   year = {2023},
-  pages = {to appear}
+  pages = {7147-7153},
+  doi = {10.1109/ICRA48891.2023.10160762}
 }
 ```
